@@ -1,0 +1,35 @@
+body {
+ background-image: url("BG.jpg");
+}
+
+h1 {
+  word-spacing: 50px;
+  color: white;
+  text-align: center;
+  font-size: 45px;
+  text-shadow: 2px 2px;
+  font-family: cursive;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-size: 55px;
+  text-shadow: 2px 2px;
+  font-family: cursive;
+}
+
+
+
+h3 {
+  color: lightyellow;
+  text-align: center;
+  font-size: 35px;
+}
+
+a{
+  font-size: 25px;
+  color: lightyellow;
+  border: 1px solid black;
+  margin: 20px 50px;
+}

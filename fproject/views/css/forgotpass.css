@@ -1,0 +1,61 @@
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-color:rgb(255, 238, 104);  
+    font-family: 'Arial';  
+}  
+.login{  
+        width: 400px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 130px;  
+        background: hsl(46, 100%, 52%);  
+        border-radius: 15px ;  
+          
+}  
+h2{  
+    text-align: center;  
+    color: #277582;  
+    padding: 20px;  
+}  
+label{  
+    color: hsl(0, 0%, 0%);  
+    font-size: 22px;  
+    font-family: 'Copperplate';
+}  
+
+span{  
+    color: black;  
+    font-size: 17px;  
+}  
+a{  
+      font-size: 22px;
+    background-color: white;  
+}  
+h1 {
+  word-spacing: 50px;
+  color: black;
+  text-align: center;
+  font-size: 80px;
+  text-shadow: 2px 2px;
+  font-family: cursive;
+}
+h3{  
+    
+    color: black;  
+    padding: 15px;  
+}  
+
+.center {
+    text-align: center;
+    border: 3px solid green;
+    padding: 40px;
+
+}
+h4 {
+  color: teal;
+  text-align: center;
+  font-size: 35px;
+}

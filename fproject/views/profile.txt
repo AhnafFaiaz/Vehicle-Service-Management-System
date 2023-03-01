@@ -1,0 +1,56 @@
+
+<?php
+    /*session_start();
+    if (count($_SESSION)===0)
+    {
+      header("../controllers/Logout.php");
+    }*/
+?>
+<?php
+    //include "../views/header.php";
+?>
+
+<!DOCTYPE html>
+<head>
+    
+   <title>Profile Page</title>
+</head>
+    
+
+    <form method="POST">
+    <center> <h1 style="color:teal;"> Profile Page  </h1> </center>
+  <center><a href="../views/home.php">Home</a> &nbsp &nbsp <a href="../views/servicelist.php">Service List</a>  &nbsp &nbsp <a href="../views/changePassword.php">Change Password</a>&nbsp &nbsp</a> &nbsp &nbsp<a href="../views/aboutus.php">About Us</a> &nbsp &nbsp <a href="../views/feedback.php">Give Feedback</a> &nbsp &nbsp<a href="../controllers/Logout.php">Logout</a></center>
+    <br> 
+    <h2> <?php echo $_SESSION['username']; ?>, Your Profile </h2>
+        <fieldset>
+         <center><h2>Customer Details:</h2></center>
+         <p style="color:navy;" ><b>First Name:&nbsp &nbsp <?php echo $_SESSION['firstname'] ?></p>
+         <p style="color:navy;"><b>Last Name:&nbsp &nbsp <?php echo  $_SESSION['lastname'] ?> </p>
+         <p style="color:navy;"><b>Gender:&nbsp &nbsp <?php echo    $_SESSION['gender'] ?></b></p> 
+         <p style="color:navy;"><b>Voter ID:&nbsp &nbsp<?php echo $_SESSION['voterid'] ?></b></p>
+         <p style="color:navy;"><b>Email: &nbsp &nbsp  <?php echo $_SESSION['email'] ?></b></p>
+         <p style="color:navy;"><b>Mobile Number: &nbsp &nbsp  <?php echo $_SESSION['mobileno'] ?></b></p>
+         <p style="color:navy;"><b>Address: &nbsp &nbsp  <?php echo $_SESSION['address1'] ?></b></p>
+         
+        
+         </fieldset>
+         <br>
+         <fieldset>
+         <center><h2>Vehicle Information:</h2></center>
+         <p style="color:green;"><b>Vehicle Type: &nbsp &nbsp  <?php echo $_SESSION['vehicletype'] ?></b></p>
+         <p style="color:green;"><b>Vehicle Brand: &nbsp &nbsp  <?php echo $_SESSION['vehiclebrand'] ?></b></p>
+         <p style="color:green;"><b>Color: &nbsp &nbsp  <?php echo $_SESSION['color'] ?></b></p>
+         <p style="color:green;"><b>Registration Number: &nbsp &nbsp  <?php echo $_SESSION['regno'] ?></b></p>
+         <p style="color:green;"><b>Chassis Number: &nbsp &nbsp  <?php echo $_SESSION['chassis'] ?></b></p>
+         </fieldset>  
+         <br>
+
+    </form>   
+   
+</body>
+<?php
+       include "../views/footer.php";
+    ?>
+</html>
+
+<?php

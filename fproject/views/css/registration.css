@@ -1,0 +1,46 @@
+/*body {
+ background-image: url("bg2.png");
+ background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 300px;
+  background-attachment: fixed;
+}*/
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("bg22.png");
+
+  /* Full height */
+  height: 200%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+label{
+	color: #fff;
+	font-size: 30px;
+	font-family: "Times New Roman";
+	
+	margin: 60px;
+	font-weight: bold;
+	cursor: pointer;
+	
+}
+h4 {
+  color: white;
+  text-align: center;
+  font-size: 55px;
+  text-shadow: 2px 2px;
+  font-family: cursive;
+}
+p{
+	color: white;
+	font-size: 45px;
+}

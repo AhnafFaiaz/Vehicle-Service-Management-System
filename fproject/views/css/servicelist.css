@@ -1,0 +1,41 @@
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-color:rgb(255, 238, 104);  
+    font-family: 'Arial';  
+}  
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+a{  
+      font-size: 22px;
+    background-color: white;  
+}  
+
+h1 {
+  word-spacing: 50px;
+  color: black;
+  text-align: center;
+  font-size: 105px;
+  text-shadow: 2px 2px;
+  font-family: cursive;
+}
+h2{  
+    text-align: justify;  
+    color: black;  
+    padding: 15px;  
+}  

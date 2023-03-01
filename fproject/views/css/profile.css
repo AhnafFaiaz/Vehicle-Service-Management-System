@@ -1,0 +1,28 @@
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-color:rgb(255, 238, 104);  
+    font-family: 'Arial';  
+}  
+h4 {
+  color: teal;
+  text-align: center;
+  font-size: 30px;
+  text-shadow: 2px 2px;/
+  font-family:Garamond, serif;
+}
+h1 {
+  word-spacing: 50px;
+  color: black;
+  text-align: center;
+  font-size: 105px;
+  text-shadow: 2px 2px;
+  font-family: cursive;
+}
+h2{  
+    text-align: center;  
+    color: #277582;  
+    padding: 20px;  
+    font-size: 70px;
+}  

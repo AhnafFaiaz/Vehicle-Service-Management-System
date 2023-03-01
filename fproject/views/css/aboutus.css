@@ -1,0 +1,33 @@
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-color:rgb(255, 238, 104);  
+    font-family: 'Arial';  
+}  
+.aboutus{  
+        width: 1100px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 130px;  
+        background: hsl(46, 100%, 52%);  
+        border-radius: 15px ;  
+          
+} 
+h1 {
+  word-spacing: 50px;
+  color: black;
+  text-align: center;
+  font-size: 80px;
+  text-shadow: 2px 2px;
+  font-family: cursive;
+} 
+p {
+  
+  color: teal;
+  text-align: center;
+  font-size: 25px;
+  text-shadow: 2px 2px;
+  font-family: cursive;
+}
